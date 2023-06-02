@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="passsword.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="pass2.png" alt="" width="50px">
+        <h1>
+
+            Password Generator
+        </h1>
+      <a href="hi.html">Saved Passwords</a>
+    </nav>
+    <div id="info">
+        Welcome to our website! Here, you have access to a secure password generator tool that helps you create strong and unique passwords for your various online accounts.
+
+        Using our password generator, you can specify the desired length, character types (such as uppercase letters, lowercase letters, numbers, and symbols), and any specific requirements. Once you generate a password, you can choose to save it securely for later use.
+        
+        By saving your passwords on our website, you can ensure that you have a reliable place to store and retrieve them whenever needed. This eliminates the need to remember multiple complex passwords or write them down insecurely.
+        
+        We take the security of your passwords seriously. All saved passwords are encrypted and stored using industry-standard techniques to safeguard your information. Our systems employ robust hashing and salting methods to protect against unauthorized access.
+    </div>
+<main id="container"> 
+     <div id="normalp">
+        <h2>Generate Password</h2>
+        <div class="input">
+            <!-- <h4 >Add a word to create a unique passsword </h4> -->
+            
+            <div class="textbox">
+                <p id="passcheck"></p>
+        <p id="text" ></p>
+        <button id="copybtn">Save & Copy</button>
+            </div>
+            <div id="length" class="check">
+
+                <p>
+                    Length of your passsword
+                </p> 
+                <div id="warbox">
+<p id="war"></p>
+                    <input id="numval" type="number" min="6" value="8" max="20">
+                </div>
+                    
+            </div>
+            <div class="check">
+
+                Add Number <input id="checknum" type="checkbox"checked>
+            </div>
+            <div class="check">
+
+                Add Upper Case letters <input id="checkuc" type="checkbox" checked>
+            </div>
+            <div class="check">
+
+                Add Lower Case letters <input id="checklc" type="checkbox" checked>
+            </div>
+            <div class="check">
+
+                Add Special Characters <input id="checkspecial" type="checkbox" checked>
+            </div>
+        
+        </div>
+        
+        <button id="normalg">Generate</button>
+    </div>
+<div id="history">
+
+
+</div>
+</main>
+
+<script src="password.js"></script>
+</body>
+</html>
