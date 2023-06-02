@@ -340,6 +340,12 @@ display: flex;align-items: center;
     .textbox{
         width: 100%;
     }
+        #navbar a {
+        margin: 0 7px;
+        padding: 5px;
+        width: 200px;
+        height: 47px;
+    }
     #copybtn{
         right: 4px;
     }
